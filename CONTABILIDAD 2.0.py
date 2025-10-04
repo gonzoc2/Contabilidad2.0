@@ -223,7 +223,7 @@ else:
         df_cuentas(dfsb, 'Categoria_A', x, current_col, mes, df_base)
         i = i+1
 
-    cuentas = ['DAÑOS', 'DIF DE KILOMETRAJE', 'MANTENIMIENTO EQ TRANSPORTE', 'SEGUROS Y FIANZAS']
+    cuentas = ['DAÑOS', 'DIF DE KILOMETRAJE', 'MANTENIMIENTO EQ TRANSPORTE', 'AMORTIZACION ACUMULADA SEGUROS']
     i = 0
     col1, col2, col3 = st.columns(3)
 
